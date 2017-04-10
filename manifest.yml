@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PruebaX
+  host: PruebaX
+  disk_quota: 1024M
+  services:
+  - Voz a texto-wy
+  - Visual Recognition-2m
+  - PruebaX-cloudantNoSQLDB
